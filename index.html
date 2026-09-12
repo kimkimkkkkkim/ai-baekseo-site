@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AI 백서는 결과를 바꾸는 빈칸과 변화 추적을 보여주는 AI 코치입니다. Codex Plan mode의 시각 우선 플랜 구성을 0.3.0으로 준비하고 있습니다.">
+  <meta name="description" content="현재 공개 버전 0.5.2인 AI 백서는 업무 요청에서 결과를 바꾸는 빈칸을 확인하고, 관계에 맞는 표현으로 판단과 행동을 정리하는 Skills-only AI 코치입니다.">
   <meta name="theme-color" content="#f7f3eb">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ko_KR">
   <meta property="og:title" content="AI 백서 — 결과를 바꾸는 빈칸과 변화 추적">
-  <meta property="og:description" content="현재 공개 버전은 0.5.1이며, 암시적 스킬 활성화를 교정한 Skills-only 0.5.2 후보를 검증하고 있습니다.">
+  <meta property="og:description" content="현재 공개 버전 0.5.2는 필요한 핵심을 먼저 보여주고 관계에 맞는 표현과 요청형 정적 HTML을 제공합니다.">
   <meta property="og:image" content="https://kimkimkkkkkim.github.io/ai-baekseo-site/assets/ai-baekseo-logo.png">
   <link rel="canonical" href="https://kimkimkkkkkim.github.io/ai-baekseo-site/">
   <link rel="icon" type="image/png" href="./assets/ai-baekseo-icon.png">
@@ -111,9 +111,9 @@
     <section class="section section-muted" aria-labelledby="release-status-title">
       <div class="shell section-heading">
         <span class="status-chip">Release status</span>
-        <h2 id="release-status-title">현재 공개 버전 0.5.1 · 다음 공개 후보 0.5.2</h2>
-        <p>현재 0.5.1은 필요한 경우 쉬운 질문을 제공하고, 긴 답을 결론·핵심 근거·다음 행동으로 먼저 정리하며 관계에 맞는 텍스트 막대·비교표·단계·분기·타임라인을 선택합니다. 0.5.2는 충분히 구체적인 분석·비교·단계·분기·타임라인 요청도 스킬 설명에서 바로 발견하도록 활성화 범위를 교정한 공개 후보입니다.</p>
-        <p>0.5.1과 0.5.2는 Skills-only이며 MCP·외부 차트 렌더러·독립 UI를 포함하지 않습니다. 사용자가 명시적으로 요청하면 답변 마지막에 정적 핵심 요약 HTML을 파일 우선·코드 대체로 제공하며, AI 백서는 이를 별도 서버에 저장·보관하지 않습니다.</p>
+        <h2 id="release-status-title">현재 공개 버전 0.5.2</h2>
+        <p>0.5.2는 필요한 경우 쉬운 질문을 제공하고, 긴 답을 결론·핵심 근거·다음 행동으로 먼저 정리하며 관계에 맞는 텍스트 막대·비교표·단계·분기·타임라인을 선택합니다.</p>
+        <p>현재 공개 버전 0.5.2는 Skills-only이며 MCP·외부 차트 렌더러·독립 UI를 포함하지 않습니다. 사용자가 명시적으로 요청하면 답변 마지막에 정적 핵심 요약 HTML을 파일 우선·코드 대체로 제공하며, AI 백서는 이를 별도 서버에 저장·보관하지 않습니다.</p>
       </div>
     </section>
 
@@ -127,6 +127,7 @@
           <ul class="privacy-list">
             <li>AI 백서 개발자는 플러그인 사용 중의 질문과 답변을 자동 수집하지 않습니다.</li>
             <li>사용 행동, 질문 빈도, 사용자 식별자를 분석하거나 집계하지 않습니다.</li>
+            <li>분석용으로 제공된 파일·표·데이터는 현재 요청에서 읽을 수 있는 내용만 사용합니다. 요청형 HTML 파일은 호스트 또는 사용자 작업공간이 처리하며 AI 백서는 별도 서버·데이터베이스에 저장·보관하지 않습니다.</li>
             <li>선택적 로컬 문맥은 사용자의 작업공간에만 보관되며 명시적 동의 없이 만들지 않습니다.</li>
             <li>지원 이메일을 보내는 경우에만 문의 처리에 필요한 정보가 개발자에게 전달됩니다.</li>
           </ul>
